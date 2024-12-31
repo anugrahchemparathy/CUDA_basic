@@ -29,5 +29,5 @@ def write_example(size_i):
         f.write(c.tobytes())
     print(f"Wrote {c_fname!r}")
 
-write_example(256, 256, 256)
-write_example(3072, 3072, 3072)
+write_example(256)
+write_example(3072)
